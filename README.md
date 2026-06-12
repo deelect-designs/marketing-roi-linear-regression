@@ -1,21 +1,52 @@
 # Marketing ROI Analysis
 
-## Objective
-Analyze marketing spending and determine the channel with the strongest impact on sales.
+## Project Overview
 
-## Tools
+This project uses Simple Linear Regression to determine which marketing channel has the strongest effect on Sales.
+
+## Dataset
+
+marketing_and_sales_data_evaluate_lr.csv
+
+Columns:
+
+- TV
+- Radio
+- Social_Media
+- Sales
+
+## Requirements
+
 - Python
-- Pandas
-- Seaborn
-- Matplotlib
-- Statsmodels
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- statsmodels
+- scipy
 
-## Method
-1. Data cleaning
-2. EDA
-3. Correlation analysis
-4. Simple Linear Regression
-5. Residual diagnostics
+## Installation
 
-## Conclusion
-TV advertising produced the strongest sales impact and is recommended for future budget allocation.
+```bash
+pip install pandas numpy matplotlib seaborn statsmodels scipy
+```
+
+## Running the Project
+
+Open Jupyter Notebook and run:
+
+```bash
+jupyter notebook
+```
+
+Open:
+
+```text
+regression_analysis.ipynb
+```
+
+Run all cells.
+
+## Results
+
+The project identifies the marketing channel with the strongest impact on Sales and provides business recommendations based on ROI.
